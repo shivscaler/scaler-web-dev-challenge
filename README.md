@@ -41,3 +41,23 @@ asyncFunction();
 
 
 Your task is to predict and explain the output of the asyncFunction when it is executed. Analyze the behavior of Promise.all, await, and error handling within the async function.
+
+
+Q2. You are given the following JavaScript code snippet:
+
+```
+function outerFunction() {
+  var x = 10;
+
+  function innerFunction(y) {
+    return x + y;
+  }
+
+  return innerFunction;
+}
+
+var result = outerFunction()(5);
+console.log(result); // Output: ?
+
+```
+Your task is to determine the output of the console.log statement. Explain the concept of closure in JavaScript that applies in this scenario and how it affects the execution of the code.
